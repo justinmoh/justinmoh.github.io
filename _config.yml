@@ -11,6 +11,7 @@ links:
     url:          /about
   - name:         Blog
     url:          http://justinmoh.github.io
+    external:     true
   - name:         GitHub
     url:          http://github.com/justinmoh
     external:     true
