@@ -21,11 +21,11 @@
 
         </section>
       </div>
-      {% if page.share == 'y' %}
+      {% if page.share != 'n' %}
         {% include share.html %}
       {% endif %}
 
-      {% if page.disqus == 'y' %}
+      {% if page.disqus != 'n' %}
         {% include disqus.html %}
       {% endif %}
       {% include links.html %}
