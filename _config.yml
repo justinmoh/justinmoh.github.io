@@ -2,9 +2,9 @@ title:            Justin Scribbling
 description:      A jekyll theme for scribbles.
 url:              http://justinmoh.github.io
 signoff:          Justin Moh
-disqus_shortname: # disqus comment thread for post header options. ( leave blank if unwanted. )
+disqus_shortname: justinmoh
 facebook_appid:   # appid for like button, remove from /_includes/share.html if unwanted.
-google_analytics: # set tracking, remove from /javascripts/basic.js if unwanted.
+google_analytics: 'UA-64363852-2'
 
 links:
   - name:         About
