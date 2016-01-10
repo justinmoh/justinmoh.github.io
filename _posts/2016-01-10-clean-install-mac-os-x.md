@@ -1,7 +1,7 @@
 ---
-layout: post
-title: "Setup New Mac OS X Yosemite"
-date: "2016-01-02"
+layout: "post"
+title: "Clean Install Mac OS X"
+date: "2016-01-10 20:50"
 ---
 
 # Setup New Mac OS X Yosemite and Development Environments
