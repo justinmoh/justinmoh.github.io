@@ -4,8 +4,6 @@ title: "Setup New Mac OS X Yosemite"
 date: "2016-01-02"
 ---
 
-# Setup New Mac OS X Yosemite and Development Environments
-
 ## A Clean Installation of Mac OS X Yosemite
 
 ### Plan Disk Drive Partitions
