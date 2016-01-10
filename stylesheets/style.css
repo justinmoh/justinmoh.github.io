@@ -252,8 +252,7 @@ section.post {
     padding: 0; }
   section.post h1 {
     text-align: center;
-    line-height: 1.5em;
-    margin-bottom: 60px; }
+    line-height: 1.5em; }
     section.post h1 .date {
       display: block;
       color: #d0d0d0;
