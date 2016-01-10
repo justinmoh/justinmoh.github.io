@@ -4,11 +4,7 @@ title: "Clean Install Mac OS X"
 date: "2016-01-10 20:50"
 ---
 
-# Setup New Mac OS X Yosemite and Development Environments
-
-## A Clean Installation of Mac OS X Yosemite
-
-### Plan Disk Drive Partitions
+## Plan Disk Drive Partitions
 
 Before anything get started, as SSD space is precious, we should plan how we want to allocate our disk space.
 
@@ -30,13 +26,13 @@ The secondary HDD can be less complex, if the primary SSD is big enough, like 25
 While we are still running on our primary SSD, format secondary HDD into 4 partitions, adjust their size accordingly. We can do these in with `Disk Utility`.
 
 To continue, let's make sure we already have these:
-* OS X Yosemite Installer.app
-* osxupdatecombo10.10.{#}.dmg
-* secupd2015-{###}yosemite.dmg
+    * OS X Yosemite Installer.app
+    * osxupdatecombo10.10.{#}.dmg
+    * secupd2015-{###}yosemite.dmg
 
 Move everything (predownloaded app installers) into `/Volumes/Data`, and we are good to go.
 
-### Create Installation Media
+## Create Installation Media
 
 There is a `createinstallmedia` utility inside `OS X Yosemite.app` content folder, which can be used to create a bootable installation media.
 
@@ -47,7 +43,7 @@ Run the following command in `Terminal`:
 /Volumes/Data\ Storage/Install\ OS\ X\ Yosemite.app/contents/Resources/createinstallmedia --volume /Volumes/OS\ X\ Installer --applicationpath "/Volumes/Data Storage/Installer/Install OS X Yosemite.app"
 ```
 
-### Install OS X Yosemite
+## Install OS X Yosemite
 
 1. Restart our system.
 2. After the initial chime, hold down `option` key (or labeled as `alt` key), and we will see a list of bootable drives.
