@@ -55,13 +55,13 @@ img {
   color: #8f8f8f; }
 
 .colour-1 {
-  color: #cc9944; }
+  color: #c94; }
 
 .colour-2 {
   color: #925; }
 
 .colour-3 {
-  color: #448844; }
+  color: #484; }
 
 .text-big {
   font-size: 24px;
@@ -248,11 +248,11 @@ section.post {
     margin-left: 20px;
     padding: 0; }
   section.post h1 {
-    text-transform: uppercase;
     text-align: center;
     line-height: 1.5em;
     margin-bottom: 60px; }
     section.post h1 .date {
+      display: block;
       color: #d0d0d0;
       font-size: 10px; }
   section.post iframe {
@@ -360,3 +360,5 @@ img {
   margin-left: -340px; }
 .paging .right {
   margin-left: 320px; }
+
+/*# sourceMappingURL=style.css.map */

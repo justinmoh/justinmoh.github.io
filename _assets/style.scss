@@ -276,11 +276,12 @@ section.post {
     }
   }
   h1 {
-    text-transform: uppercase;
+    //text-transform: uppercase;
     text-align: center;
     line-height: 1.5em;
     margin-bottom: 60px;
     .date {
+      display: block;
       color: #d0d0d0;
       font-size: 10px;
     }
