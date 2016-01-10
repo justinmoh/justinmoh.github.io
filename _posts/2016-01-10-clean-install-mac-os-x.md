@@ -14,18 +14,18 @@ Before anything get started, as SSD space is precious, we should plan how we wan
 
 The secondary HDD can be less complex, if the primary SSD is big enough, like 256GB of space, then we can just store all musics and photos in SSD as well. But at the moment, I'll just assume we are running on a 120GB SSD.
 
-__Primary__  
-  * 120 GB **[Macintosh SSD]**
-    - The primary SSD storage, where the Operating System and Apps reside.
-__Secondary__  
-  * 8 GB **[Installer]**
-    - A partition for the installer. You can also use a USB flash drive instead.
-  * 240 GB **[Time Machine]**
-    - Time machine partition, double of the size of primary (OS) storage.
-  * 120+ GB **[Data]**
-    - Data files, store whole lot of musics, videos, photos and something like that.
-  * 120 GB **[Snapshot]**
-    - A bootable system snapshot (clone) for the primary (OS) storage.
+1. Primary
+    * 120 GB **[Macintosh SSD]**
+        - The primary SSD storage, where the Operating System and Apps reside.
+2. Secondary
+    * 8 GB **[Installer]**
+        - A partition for the installer. You can also use a USB flash drive instead.
+    * 240 GB **[Time Machine]**
+        - Time machine partition, double of the size of primary (OS) storage.
+    * 120+ GB **[Data]**
+        - Data files, store whole lot of musics, videos, photos and something like that.
+    * 120 GB **[Snapshot]**
+        - A bootable system snapshot (clone) for the primary (OS) storage.
 
 While we are still running on our primary SSD, format secondary HDD into 4 partitions, adjust their size accordingly. We can do these in with `Disk Utility`.
 
