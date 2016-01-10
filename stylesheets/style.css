@@ -249,7 +249,7 @@ section.post {
     padding: 0; }
   section.post h1 {
     text-align: center;
-    line-height: 2em;
+    line-height: 1.5em;
     margin-bottom: 60px; }
     section.post h1 .date {
       display: block;
