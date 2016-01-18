@@ -98,7 +98,7 @@ footer {
   background: #fff;
   margin: 40px auto 20px;
   border-radius: 7px;
-  border: 1px solid #eee;
+  border: 1px solid #efefef;
   position: relative; }
   #container:before, #container:after {
     content: " ";
@@ -328,17 +328,17 @@ pre {
 
 code {
   font-size: 95%;
-  color: #eee;
-  background: #39382e;
+  color: #303030;
+  background: rgba(0, 0, 0, 0.1);
   padding: 0 0.4em;
-  border-radius: 2px;
+  border-radius: 4px;
   line-height: 1.6em;
   display: inline-block;
   vertical-align: baseline;
   zoom: 1;
   *display: inline;
   *vertical-align: auto; }
-  code:before {
+  code:before, code:after {
     letter-spacing: -0.2em;
     content: "\00a0"; }
 

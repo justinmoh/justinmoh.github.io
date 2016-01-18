@@ -2,8 +2,10 @@
 
 $body-color: #303030;
 $body-background: #f9f9f9;
-$code-color: #eee;
-$code-background: #39382e;
+//$code-color: #eee;
+//$code-background: #39382e;
+$code-color: $body-color;
+$code-background: rgba(0,0,0,0.1);
 
 $muted-color: #8f8f8f;
 $color-1: #c94;
@@ -138,7 +140,7 @@ footer {
   background: $container-background;
   margin: 40px auto 20px;
   border-radius: 7px;
-  border: 1px solid $code-color;
+  border: 1px solid $container-border;
   position: relative;
   .block {
     &:first-child, & + .block {
@@ -382,7 +384,7 @@ pre {
 }
 
 code {
-  &:before {
+  &:before, &:after {
     letter-spacing: -0.2em;
     content: "\00a0";
   }
@@ -390,7 +392,7 @@ code {
   color: $code-color;
   background: $code-background;
   padding: 0 0.4em;
-  border-radius: 2px;
+  border-radius: 4px;
   line-height: 1.6em;
   @include inline-block;
 }
