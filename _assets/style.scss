@@ -292,7 +292,7 @@ section.post {
     //text-transform: uppercase;
     text-align: center;
     line-height: $body-line-height;
-    font-size: 2em;
+    font-size: $body-font-size * 2;
     margin-top: 0;
     //margin-bottom: 60px;
     .date {
@@ -389,7 +389,7 @@ code {
     letter-spacing: -0.2em;
     content: "\00a0";
   }
-  font-size: 95%;
+  font-size: 110%;
   color: $code-color;
   background: $code-background;
   padding: 0 0.2em;
