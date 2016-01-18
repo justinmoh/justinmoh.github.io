@@ -32,8 +32,8 @@ body {
   color: $body-color;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 400;
-  font-size: 13px;
-  line-height: 19px;
+  font-size: 1em;
+  line-height: 1.6em;
   padding: 0;
   margin: 0;
 }
@@ -378,9 +378,8 @@ pre {
   code {
     color: #eee;
   }
-;
-
 }
+
 
 code {
   &:before, &:after {
