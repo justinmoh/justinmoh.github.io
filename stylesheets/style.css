@@ -1,16 +1,13 @@
 h1, h2, h3, h4, h5, strong, b {
   font-weight: 600; }
 
-h1, h2, h3, h4, h5 {
-  margin-top: 2em; }
-
 html, body {
   height: 100%; }
 
 body {
   background: #f9f9f9;
   color: #303030;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 400;
   font-size: 13px;
   line-height: 19px;
@@ -83,7 +80,7 @@ header {
 
 footer {
   width: 100%;
-  max-width: 600px;
+  max-width: 800px;
   line-height: 2em;
   margin: auto;
   padding-bottom: 30px;
@@ -97,7 +94,7 @@ footer {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   width: 100%;
-  max-width: 600px;
+  max-width: 800px;
   background: #fff;
   margin: 40px auto 20px;
   border-radius: 7px;
@@ -189,11 +186,11 @@ a, .as-link {
     border-style: solid;
     border-color: #8ab;
     background: #6f8f9f;
-    box-shadow: inset 0 -1px 0px rgba(0, 0, 0, 0.1); }
+    box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.1); }
     a.big-button:hover, .as-link.big-button:hover {
       background: #608090; }
     a.big-button:active, .as-link.big-button:active {
-      box-shadow: inset 0 1px 0px rgba(0, 0, 0, 0.1); }
+      box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.1); }
     a.big-button.red, .as-link.big-button.red {
       border-color: #ddacac;
       background: #a65; }
@@ -252,11 +249,15 @@ section.post {
     padding: 0; }
   section.post h1 {
     text-align: center;
-    line-height: 1.5em; }
+    line-height: 1.5em;
+    font-size: 2em;
+    margin-top: 0; }
     section.post h1 .date {
       display: block;
       color: #d0d0d0;
       font-size: 10px; }
+  section.post h2, section.post h3, section.post h4, section.post h5 {
+    margin-top: 2em; }
   section.post iframe {
     width: 100%; }
   section.post iframe, section.post img {
@@ -299,8 +300,8 @@ section.post, section > p {
       font-size: 24px;
       overflow: hidden;
       position: absolute;
-      top: 0px;
-      bottom: 0px;
+      top: 0;
+      bottom: 0;
       line-height: 0.4em;
       word-break: break-all;
       color: #d0dfda;
@@ -326,17 +327,20 @@ pre {
   box-sizing: border-box; }
 
 code {
-  font-size: 13px;
+  font-size: 95%;
   color: #eee;
   background: #39382e;
-  padding: 2px 4px 3px;
+  padding: 0 0.4em;
   border-radius: 2px;
-  line-height: 1.3em;
+  line-height: 1.6em;
   display: inline-block;
   vertical-align: baseline;
   zoom: 1;
   *display: inline;
   *vertical-align: auto; }
+  code:before {
+    letter-spacing: -0.2em;
+    content: "\00a0"; }
 
 img {
   max-width: 100%; }
@@ -359,8 +363,8 @@ img {
   left: 50%;
   font-size: 60px; }
 .paging .left {
-  margin-left: -340px; }
+  margin-left: -440px; }
 .paging .right {
-  margin-left: 320px; }
+  margin-left: 420px; }
 
 /*# sourceMappingURL=style.css.map */
