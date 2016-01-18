@@ -5,7 +5,7 @@ $body-background: #f9f9f9;
 //$code-color: #eee;
 //$code-background: #39382e;
 $code-color: $body-color;
-$code-background: rgba(0,0,0,0.06);
+$code-background: rgba(0, 0, 0, 0.06);
 
 $muted-color: #8f8f8f;
 $color-1: #c94;
@@ -375,6 +375,10 @@ pre {
   width: 100%;
   line-height: 1.2em;
   @include box-sizing(border-box);
+  > code {
+    color: #eee;
+  }
+;
 
 }
 
