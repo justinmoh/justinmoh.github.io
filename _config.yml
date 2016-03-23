@@ -1,6 +1,6 @@
 title:            Justin Moh
 description:      Scribbles on Github Pages.
-url:              http://justinmoh.github.io
+url:              http://justinmoh.my
 signoff:          Justin Moh
 disqus_shortname: justinmoh
 facebook_appid:   # appid for like button, remove from /_includes/share.html if unwanted.
@@ -10,7 +10,7 @@ links:
   - name:         About
     url:          /about
   - name:         Blog
-    url:          http://justinmoh.github.io
+    url:          http://justinmoh.my
     external:     true
   - name:         GitHub
     url:          http://github.com/justinmoh
