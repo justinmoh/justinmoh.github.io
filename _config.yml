@@ -1,23 +1,39 @@
-title:            Justin Moh
-description:      Scribbles on Github Pages.
-url:              http://justinmoh.my
-signoff:          Justin Moh
-disqus_shortname: justinmoh
-facebook_appid:   # appid for like button, remove from /_includes/share.html if unwanted.
-google_analytics: UA-64363852-2
+# Site settings
+title: 'Justin Moh'
+description: '- System Development - Business Process Computerisation - Technology Consultant -'
+url: 'http://justinmoh.my'
+baseurl: '/'
+# google_analytics: 'UA-XXXXXX-X'
+# disqus_shortname: 'your-disqus-name'
 
-links:
-  - name:         About
-    url:          /about
-  - name:         Blog
-    url:          http://justinmoh.my
-    external:     true
-  - name:         GitHub
-    url:          http://github.com/justinmoh
-    external:     true
-highlighter:      pygments
-permalink:        pretty
-markdown:         redcarpet
-redcarpet:
-  extensions:
-    - smart
+author:
+  name: 'Justin Moh'
+  email: me@justinmoh.my
+#  twitter_username: joshgerdes
+#  facebook_username: joshgerdes
+#  github_username:  joshgerdes
+#  linkedin_username:  joshgerdes
+
+defaults:
+  -
+    scope:
+      path: ''
+      type: 'posts'
+    values:
+        layout: 'post'
+
+# Build settings
+destination: _site
+paginate: 10
+permalink: /:year/:title/
+markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
+
+gems: ['jekyll-paginate']
+exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']
